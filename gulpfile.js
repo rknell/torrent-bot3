@@ -12,7 +12,7 @@ var ngAnnotate = require('gulp-ng-annotate');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('install', function () {
-  return gulp.src(['./package.json', './www/bower.json'])
+  return gulp.src(['./package.json', './client/src/bower.json'])
     .pipe(install());
 });
 
