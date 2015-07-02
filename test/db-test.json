@@ -1,0 +1,1054 @@
+{
+  "shows": {
+    "test": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/bYZtFjLJg1BoIsr2yH48WqdBKqm.jpg",
+        "first_air_date": "2005-09-17",
+        "genre_ids": [
+          16,
+          35
+        ],
+        "id": 1769,
+        "original_language": "en",
+        "original_name": "Johnny Test",
+        "overview": "Johnny Test is an American /Canadian animated television series. It premiered on Kids' WB, on The WB Television Network, on September 17, 2005. It was introduced to Cartoon Network UK on January 12, 2006 as a sneak preview on Jungle Saturdays Block, and then on June 5, 2006, added to its daily lineup. Despite the merger of the UPN and that programming block's parent channel into The CW Television Network, the show still continued to air on Kids' WB, on The CW, with its second and third seasons, through October 28, 2006, to March 1, 2008. The series currently airs in the United States on Cartoon Network, as of January 7, 2008, and in Canada on Teletoon, as of September 8, 2006. International airings include Teletoon in Canada, Nick Germany, Nick Netherlands, Disney Channel Spain and on Cartoon Network in Latin America, Hungary, Poland, Romania, Denmark, Ireland, India and Sweden. The show was produced by Warner Bros. Animation for the first season and later seasons by Cookie Jar Entertainment & DHX Media. Starting from season 6, the show is produced by 9 Story Entertainment. The series is rated TV-Y7 for seasons 1-4, and TV-Y7-FV for season 5 onwards.",
+        "origin_country": [
+          "US",
+          "CA"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/wr7i6FxsLxT1PpaETCpGjchgT3C.jpg",
+        "popularity": 0.112624,
+        "name": "Johnny Test",
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      "seasons": {
+        "1": {
+          "1": {
+            "sources": [
+              {
+                "magnetUri": "test",
+                "quality": "SD",
+                "originalName": "Test Original Name"
+              }
+            ],
+            "info": {
+              "air_date": "2005-09-17",
+              "crew": [],
+              "episode_number": 1,
+              "guest_stars": [
+                {
+                  "id": 52718,
+                  "name": "Andrew Francis",
+                  "credit_id": "5257144919c295711406fdc3",
+                  "character": "",
+                  "order": 0,
+                  "profile_path": "/cNkWES21R5esE4A7yU8qEvh8wEY.jpg"
+                },
+                {
+                  "id": 46995,
+                  "name": "Richard Newman",
+                  "credit_id": "5257144a19c295711406fde9",
+                  "character": "",
+                  "order": 1,
+                  "profile_path": null
+                },
+                {
+                  "id": 74369,
+                  "name": "Brittney Wilson",
+                  "credit_id": "5257144a19c295711406fe1f",
+                  "character": "",
+                  "order": 2,
+                  "profile_path": "/75Js7G0qVKJCQQhsHgL362VUU8A.jpg"
+                },
+                {
+                  "id": 45923,
+                  "name": "Kathleen Barr",
+                  "credit_id": "5257144a19c295711406fe45",
+                  "character": "",
+                  "order": 3,
+                  "profile_path": "/5eHupAvT4hsj15MABJCKjGMKKZ5.jpg"
+                },
+                {
+                  "id": 74363,
+                  "name": "Scott McNeil",
+                  "credit_id": "5257144a19c295711406fe6b",
+                  "character": "",
+                  "order": 4,
+                  "profile_path": "/iMtbS7ZuEhnkOYVlbyyVRbU1Ws4.jpg"
+                }
+              ],
+              "name": "Johnny to the Center of the Earth",
+              "overview": "Johnny to the Center of the Earth - Things have been mysteriously disappearing underground, making Johnny and Dukey believe that the people behind this are \"mole people\". When Johnny accidentally loses his dad's new camera, he must journey to the center of the earth to retrieve it before dinnertime, or he will be grounded.\n\nJohnny X - Susan and Mary give Gil a piece of their special love \"bubble gum\", but by accident, it makes him transform. In order to save Gil and the others in pork belly, they have to give Johnny and Dukey some cool super powers.",
+              "id": 107138,
+              "production_code": null,
+              "season_number": 1,
+              "still_path": "http://image.tmdb.org/t/p/w300null",
+              "vote_average": 0,
+              "vote_count": 0
+            }
+          }
+        }
+      }
+    },
+    "GAME OF THRONES": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+        "first_air_date": "2011-04-17",
+        "genre_ids": [
+          10765,
+          18
+        ],
+        "id": 1399,
+        "original_language": "en",
+        "original_name": "Game of Thrones",
+        "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.\n\n",
+        "origin_country": [
+          "US"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/jIhL6mlT7AblhbHJgEoiBIOUVl1.jpg",
+        "popularity": 28.002963,
+        "name": "Game of Thrones",
+        "vote_average": 9,
+        "vote_count": 285
+      },
+      "seasons": {
+        "5": {
+          "2": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:9FB267CFF5AE5603F07A347676EC3BF3E35F75E1&dn=game+of+thrones+s05e02+hdtv+x264+xclusive+eztv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game of Thrones S05E02 HDTV x264-Xclusive [eztv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-04-19",
+              "crew": [
+                {
+                  "id": 10851,
+                  "credit_id": "552ae3d9c3a36858d6004160",
+                  "name": "Ramin Djawadi",
+                  "department": "Sound",
+                  "job": "Music",
+                  "profile_path": null
+                },
+                {
+                  "id": 52034,
+                  "credit_id": "552ae23c925141265f0023fe",
+                  "name": "Michael Slovis",
+                  "department": "Directing",
+                  "job": "Director",
+                  "profile_path": null
+                },
+                {
+                  "id": 9813,
+                  "credit_id": "5256c8a019c2956ff6046e2b",
+                  "name": "David Benioff",
+                  "department": "Writing",
+                  "job": "Writer",
+                  "profile_path": "/8CuuNIKMzMUL1NKOPv9AqEwM7og.jpg"
+                },
+                {
+                  "id": 228068,
+                  "credit_id": "5256c8a219c2956ff6046e4b",
+                  "name": "D. B. Weiss",
+                  "department": "Writing",
+                  "job": "Writer",
+                  "profile_path": null
+                }
+              ],
+              "episode_number": 2,
+              "guest_stars": [
+                {
+                  "id": 1472584,
+                  "name": "Nell Tiger Free",
+                  "credit_id": "556b61d2c3a36826f800209b",
+                  "character": "Myrcella Baratheon",
+                  "order": 8,
+                  "profile_path": "/AbsRm9fcqzgJbb1e7zju896f7kD.jpg"
+                },
+                {
+                  "id": 1290501,
+                  "name": "Toby Sebastian",
+                  "credit_id": "556b64aa9251416b0a004540",
+                  "character": "Trystane Martell",
+                  "order": 9,
+                  "profile_path": "/xBBP0EbrD56spipJZC7mjWnGaMp.jpg"
+                },
+                {
+                  "id": 193335,
+                  "name": "Dominic Carter",
+                  "credit_id": "556b676592514173e0003e18",
+                  "character": "Janos Slynt",
+                  "order": 10,
+                  "profile_path": "/8Wu34kgPhGI00XnQlt3OOmZepHL.jpg"
+                }
+              ],
+              "name": "The House of Black and White",
+              "overview": "Arya arrives in Braavos. Podrick and Brienne run into trouble on the road. Cersei fears for her daughter's safety in Dorne as Ellaria Sand seeks revenge for Oberyn's death. Stannis tempts Jon. An adviser tempts Daenerys.",
+              "id": 1045551,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/pVTafj1pKhXh5aGZItOSDtgBZuc.jpg",
+              "vote_average": 6.5,
+              "vote_count": 2
+            }
+          },
+          "3": {
+            "sources": [],
+            "info": {}
+          },
+          "5": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:9800748DDDA1891DEF1D01C04F8CC0BCCAE1A192&dn=game+of+thrones+s05e05+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game of Thrones S05E05 HDTV x264-ASAP[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-05-10",
+              "crew": [
+                {
+                  "id": 10851,
+                  "credit_id": "552ae3d9c3a36858d6004160",
+                  "name": "Ramin Djawadi",
+                  "department": "Sound",
+                  "job": "Music",
+                  "profile_path": null
+                },
+                {
+                  "id": 88391,
+                  "credit_id": "552aea1bc3a368565f00427e",
+                  "name": "Jeremy Podeswa",
+                  "department": "Directing",
+                  "job": "Director",
+                  "profile_path": "/fdzF8YFdXRh4iwwlO0kpsFn6QIY.jpg"
+                },
+                {
+                  "id": 9813,
+                  "credit_id": "5256c8a019c2956ff6046e2b",
+                  "name": "David Benioff",
+                  "department": "Writing",
+                  "job": "Writer",
+                  "profile_path": "/8CuuNIKMzMUL1NKOPv9AqEwM7og.jpg"
+                },
+                {
+                  "id": 228068,
+                  "credit_id": "5256c8a219c2956ff6046e4b",
+                  "name": "D. B. Weiss",
+                  "department": "Writing",
+                  "job": "Writer",
+                  "profile_path": null
+                }
+              ],
+              "episode_number": 5,
+              "guest_stars": [],
+              "name": "Kill the Boy",
+              "overview": "Dany makes a difficult decision in Meereen. Jon recruits the help of an unexpected ally. Brienne searches for Sansa. Theon remains under Ramsay's control.",
+              "id": 1051286,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/6OBLxmCseaeLwpKO9wN3oqPMDHQ.jpg",
+              "vote_average": 7,
+              "vote_count": 2
+            }
+          },
+          "6": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:DBE720F223AAE9B6E5886122FD2EEE18B90195C1&dn=game+of+thrones+s05e06+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game of Thrones S05E06 HDTV x264-ASAP[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-05-17",
+              "crew": [],
+              "episode_number": 6,
+              "guest_stars": [
+                {
+                  "id": 1472584,
+                  "name": "Nell Tiger Free",
+                  "credit_id": "556b61d2c3a36826f800209b",
+                  "character": "Myrcella Baratheon",
+                  "order": 8,
+                  "profile_path": "/AbsRm9fcqzgJbb1e7zju896f7kD.jpg"
+                },
+                {
+                  "id": 1290501,
+                  "name": "Toby Sebastian",
+                  "credit_id": "556b64aa9251416b0a004540",
+                  "character": "Trystane Martell",
+                  "order": 9,
+                  "profile_path": "/xBBP0EbrD56spipJZC7mjWnGaMp.jpg"
+                }
+              ],
+              "name": "Unbowed, Unbent, Unbroken",
+              "overview": "Arya trains. Jorah and Tyrion run into slavers. Trystane and Myrcella make plans. Jaime and Bronn reach their destination. The Sand Snakes attack.",
+              "id": 1051287,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/siGoOvAqTTyojNHpfR8wilIoBjf.jpg",
+              "vote_average": 6.5,
+              "vote_count": 2
+            }
+          },
+          "7": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:E4F0B6A3723E58EAA45AB92AAE5D38072A5F8CDE&dn=game+of+thrones+s05e07+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game of Thrones S05E07 HDTV x264-ASAP[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-05-24",
+              "crew": [],
+              "episode_number": 7,
+              "guest_stars": [
+                {
+                  "id": 1472584,
+                  "name": "Nell Tiger Free",
+                  "credit_id": "556b61d2c3a36826f800209b",
+                  "character": "Myrcella Baratheon",
+                  "order": 8,
+                  "profile_path": "/AbsRm9fcqzgJbb1e7zju896f7kD.jpg"
+                }
+              ],
+              "name": "The Gift",
+              "overview": "Jon prepares for conflict. Sansa tries to talk to Theon. Brienne waits for a sign. Stannis remains stubborn. Jaime attempts to reconnect with family.",
+              "id": 1051288,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/3z3TxpfUwG7MWIXbx58zJNgxWg7.jpg",
+              "vote_average": 7,
+              "vote_count": 2
+            }
+          },
+          "8": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:2C7FAC7A8B18716E7209FC4AD769642DEAB43AE1&dn=game+of+thrones+s05e08+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game of Thrones S05E08 HDTV x264-KILLERS[ettv]"
+              },
+              {
+                "magnetUri": "magnet:?xt=urn:btih:D591E2B93E1A35F3AD90ACC572192756CE8AB956&dn=game+of+thrones+s05e08+fastsub+vostfr+hdtv+xvid+addiction+avi&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game Of Thrones S05E08 FASTSUB VOSTFR HDTV XviD-ADDiCTiON avi"
+              }
+            ],
+            "info": {
+              "air_date": "2015-05-31",
+              "crew": [],
+              "episode_number": 8,
+              "guest_stars": [],
+              "name": "Hardhome",
+              "overview": "Arya makes progress in her training. Sansa confronts an old friend. Cersei struggles. Jon travels.",
+              "id": 1070282,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/zIrSrXU4zOArlVYnXFxxfKDYYY2.jpg",
+              "vote_average": 8,
+              "vote_count": 3
+            }
+          },
+          "9": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:F49F64DB758A7E854C57DC60D7CC43061A2A02DA&dn=game+of+thrones+s05e09+proper+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game of Thrones S05E09 PROPER HDTV x264-KILLERS[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-06-07",
+              "crew": [
+                {
+                  "id": 33316,
+                  "credit_id": "5256c8a919c2956ff6047440",
+                  "name": "David Nutter",
+                  "department": "Directing",
+                  "job": "Director",
+                  "profile_path": null
+                },
+                {
+                  "id": 9813,
+                  "credit_id": "5256c8a019c2956ff6046e2b",
+                  "name": "David Benioff",
+                  "department": "Writing",
+                  "job": "Writer",
+                  "profile_path": "/8CuuNIKMzMUL1NKOPv9AqEwM7og.jpg"
+                },
+                {
+                  "id": 228068,
+                  "credit_id": "5256c8a219c2956ff6046e4b",
+                  "name": "D. B. Weiss",
+                  "department": "Writing",
+                  "job": "Writer",
+                  "profile_path": null
+                }
+              ],
+              "episode_number": 9,
+              "guest_stars": [
+                {
+                  "id": 1472584,
+                  "name": "Nell Tiger Free",
+                  "credit_id": "556b61d2c3a36826f800209b",
+                  "character": "Myrcella Baratheon",
+                  "order": 8,
+                  "profile_path": "/AbsRm9fcqzgJbb1e7zju896f7kD.jpg"
+                },
+                {
+                  "id": 1290501,
+                  "name": "Toby Sebastian",
+                  "credit_id": "556b64aa9251416b0a004540",
+                  "character": "Trystane Martell",
+                  "order": 9,
+                  "profile_path": "/xBBP0EbrD56spipJZC7mjWnGaMp.jpg"
+                }
+              ],
+              "name": "The Dance of Dragons",
+              "overview": "Stannis confronts a troubling decision. Jon returns to The Wall. Mace visits the Iron Bank. Arya encounters someone from her past. Dany reluctantly oversees a traditional celebration of athleticism.",
+              "id": 1054979,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/j7oyJI76rmn83WrczewkiqO5hh6.jpg",
+              "vote_average": 7,
+              "vote_count": 2
+            }
+          },
+          "10": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:9609F0336566953F3BF342241B25E2437F65B2C8&dn=game+of+thrones+s05e10+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Game of Thrones S05E10 HDTV x264-KILLERS[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-06-14",
+              "crew": [],
+              "episode_number": 10,
+              "guest_stars": [
+                {
+                  "id": 52639,
+                  "name": "Tom Wlaschiha",
+                  "credit_id": "5593063a92514121c70003bd",
+                  "character": "Jaqen H'ghar",
+                  "order": 12,
+                  "profile_path": "/uauUSlcDvrjSuH9rXavOwiYTMoV.jpg"
+                }
+              ],
+              "name": "Mother’s Mercy",
+              "overview": "Dany is surrounded by strangers. Cersei seeks forgiveness. Jon is challenged.",
+              "id": 1054980,
+              "production_code": "50",
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/eEDOhpZ1Ngn8FYWFEa0CQJSv9k8.jpg",
+              "vote_average": 7,
+              "vote_count": 2
+            }
+          }
+        }
+      }
+    },
+    "SUITS": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/8SAQqivlp74MZ7u55ccR1xa0Nby.jpg",
+        "first_air_date": "2011-06-23",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "id": 37680,
+        "original_language": "en",
+        "original_name": "Suits",
+        "overview": "While running from a drug deal gone bad, Mike Ross, a brilliant young college-dropout, slips into a job interview with one of New York City's best legal closers, Harvey Specter. Tired of cookie-cutter law school grads, Harvey takes a gamble by hiring Mike on the spot after he recognizes his raw talent and photographic memory. Mike and Harvey are a winning team. Even though Mike is a genius, he still has a lot to learn about law. And while Harvey may seem like an emotionless, cold-blooded shark, Mike's sympathy and concern for their cases and clients will help remind Harvey why he went into law in the first place. Mike's other allies in the office include the firm's best paralegal Rachel and Harvey's no-nonsense assistant Donna to help him serve justice. Proving to be an irrepressible duo and invaluable to the practice, Mike and Harvey must keep their secret from everyone including managing partner Jessica and Harvey's arch nemesis Louis, who seems intent on making Mike's life as difficult as possible.",
+        "origin_country": [
+          "US"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/i6Iu6pTzfL6iRWhXuYkNs8cPdJF.jpg",
+        "popularity": 12.177288,
+        "name": "Suits",
+        "vote_average": 8.4,
+        "vote_count": 51
+      },
+      "seasons": {
+        "5": {
+          "1": {
+            "sources": [],
+            "info": {}
+          },
+          "2": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:8470E2DB03A77EDE366D6F77C9E1A5B703495717&dn=suits+s05e02+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Suits S05E02 HDTV x264-KILLERS[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-07-01",
+              "crew": [],
+              "episode_number": 2,
+              "guest_stars": [],
+              "name": "Compensation",
+              "overview": "Harvey attempts to find a replacement for Donna. Mike attempts to justify a case to Jessica.",
+              "id": 1077298,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/9PeYpa8VvP70ROMlHZ5ffwMrdNZ.jpg",
+              "vote_average": 5,
+              "vote_count": 1
+            }
+          }
+        }
+      }
+    },
+    "MR ROBOT": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/9OEWK8nMTFmqQwAFpFyn7snIGP8.jpg",
+        "first_air_date": "2015-05-27",
+        "genre_ids": [
+          18,
+          80
+        ],
+        "id": 62560,
+        "original_language": "en",
+        "original_name": "Mr. Robot",
+        "overview": "A contemporary and culturally resonant drama about a young programmer, Elliot, who suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot will find himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.",
+        "origin_country": [
+          "US"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/aubGV7NnVPjmX0XuXpHRlA1i5qF.jpg",
+        "popularity": 12.787437,
+        "name": "Mr. Robot",
+        "vote_average": 7.8,
+        "vote_count": 8
+      },
+      "seasons": {
+        "1": {
+          "2": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:E5FFC2BFD35C007849296A3FA19687CAB17C4985&dn=mr+robot+s01e02+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Mr Robot S01E02 HDTV x264-KILLERS[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-07-01",
+              "crew": [],
+              "episode_number": 2,
+              "guest_stars": [],
+              "name": "eps.1.1_ones-and-zer0es.mpeg",
+              "overview": "Elliot is torn between accepting a job offer from an evil corporation and joining the fsociety hacker group.",
+              "id": 1071733,
+              "production_code": null,
+              "season_number": 1,
+              "still_path": "http://image.tmdb.org/t/p/w300/kdHrvfNfuPlH3ktORMCXHHMV9O0.jpg",
+              "vote_average": 0,
+              "vote_count": 0
+            }
+          }
+        }
+      }
+    },
+    "TRUE DETECTIVE": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/qDEIZWnyRxWTB9zCjyyj4mbURVp.jpg",
+        "first_air_date": "2014-01-12",
+        "genre_ids": [
+          18
+        ],
+        "id": 46648,
+        "original_language": "en",
+        "original_name": "True Detective",
+        "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+        "origin_country": [
+          "US"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/yCw88GhkkV5UDDAQJOJ6kQSdvQY.jpg",
+        "popularity": 20.251679,
+        "name": "True Detective",
+        "vote_average": 8.6,
+        "vote_count": 95
+      },
+      "seasons": {
+        "2": {
+          "1": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:E4A2B706FD8882794806D37A9F97D7BB68E70BD8&dn=true+detective+s02e01+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "True Detective S02E01 HDTV x264-KILLERS[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-06-21",
+              "crew": [
+                {
+                  "id": 58189,
+                  "credit_id": "558770d4c3a36833650054f8",
+                  "name": "Justin Lin",
+                  "department": "Directing",
+                  "job": "Director",
+                  "profile_path": "/4usb3KMBq9fHU1ujMqbedjbXTGZ.jpg"
+                },
+                {
+                  "id": 1281190,
+                  "credit_id": "52dbf80119c2957c5f1dfdd1",
+                  "name": "Nic Pizzolatto",
+                  "department": "Writing",
+                  "job": "Writer",
+                  "profile_path": "/orVfktsRnwAE1rBXJRefO8pX2b8.jpg"
+                }
+              ],
+              "episode_number": 1,
+              "guest_stars": [],
+              "name": "The Western Book of the Dead",
+              "overview": "The disappearance of a city manager disrupts a lucrative land scheme and ignites an investigation involving three police officers and a career criminal who is moving into legitimate business.",
+              "id": 1052802,
+              "production_code": null,
+              "season_number": 2,
+              "still_path": "http://image.tmdb.org/t/p/w300/xU9WNshqgkYRxaMAoIYOvCU91pE.jpg",
+              "vote_average": 7.75,
+              "vote_count": 2
+            }
+          },
+          "2": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:022A86CC2BE154856AB5E56EF25758975DDB1FD5&dn=true+detective+s02e02+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "True Detective S02E02 HDTV x264-ASAP[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-06-28",
+              "crew": [],
+              "episode_number": 2,
+              "guest_stars": [],
+              "name": "Night Finds You",
+              "overview": "Ben Caspar's autopsy reveals the gruesome details of his demise, and Ray and Ani wonder if it has anything to do with his fondness for prostitutes. Meanwhile, Frank looks into what might have happened to his missing fortune.",
+              "id": 1073143,
+              "production_code": null,
+              "season_number": 2,
+              "still_path": "http://image.tmdb.org/t/p/w300/7yFu6rC9iFqE7Cnf8zotYMa2lP9.jpg",
+              "vote_average": 6.5,
+              "vote_count": 1
+            }
+          }
+        }
+      }
+    },
+    "IMMERSE PRESENTS GAME OF THRONES": {
+      "seasons": {
+        "5": {
+          "6": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:3ACF09E55973D1EE6F2DBF3FD1DCE7BB610DE361&dn=immerse+presents+game+of+thrones+s05e06+720p+hdtv+x264&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "720p",
+                "originalName": "IMMERSE PRESENTS Game of Thrones S05E06 720p HDTV x264"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "PRETTY LITTLE LIARS": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/trypBo0ldWAZ4ULeQDjkzzW7To3.jpg",
+        "first_air_date": "2010-06-08",
+        "genre_ids": [
+          9648,
+          18
+        ],
+        "id": 31917,
+        "original_language": "en",
+        "original_name": "Pretty Little Liars",
+        "overview": "Based on the Pretty Little Liars series of young adult novels by Sara Shepard, the series follows the lives of four girls — Spencer, Hanna, Aria, and Emily — whose clique falls apart after the disappearance of their queen bee, Alison. One year later, they begin receiving messages from someone using the name \"A\" who threatens to expose their secrets — including long-hidden ones they thought only Alison knew. ",
+        "origin_country": [
+          "US"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/2rOLNdUPahiAq6VuoA1I6sA45cs.jpg",
+        "popularity": 13.890999,
+        "name": "Pretty Little Liars",
+        "vote_average": 6.8,
+        "vote_count": 27
+      },
+      "seasons": {
+        "6": {
+          "5": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:8C27C6E68F5B5889BD1514971105ECDBED077D0B&dn=pretty+little+liars+s06e05+hdtv+x264+lol+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Pretty Little Liars S06E05 HDTV x264-LOL[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-06-30",
+              "crew": [],
+              "episode_number": 5,
+              "guest_stars": [],
+              "name": "She's No Angel",
+              "overview": "",
+              "id": 1059267,
+              "production_code": null,
+              "season_number": 6,
+              "still_path": "http://image.tmdb.org/t/p/w300/30puxbKp4w2aXlZgCdatBL2xuWs.jpg",
+              "vote_average": 0,
+              "vote_count": 0
+            }
+          }
+        }
+      }
+    },
+    "ZOO": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/2MOwrNrqFbWRWIOVevQE16lzEkB.jpg",
+        "first_air_date": "2015-06-30",
+        "genre_ids": [
+          18,
+          53
+        ],
+        "id": 62517,
+        "original_language": "en",
+        "original_name": "Zoo",
+        "overview": "Set amidst a wave of violent animal attacks sweeping across the planet, a young renegade scientist is thrust into a race to unlock the mystery behind this pandemic before time runs out for animals and humans alike.",
+        "origin_country": [
+          "US"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/8blVYBMPzLDEIeWNGFbhofL9muj.jpg",
+        "popularity": 14.718462,
+        "name": "Zoo",
+        "vote_average": 8,
+        "vote_count": 1
+      },
+      "seasons": {
+        "1": {
+          "1": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:F06CEDFED7921DEC1C164F883724ADA34E8CE0E3&dn=zoo+s01e01+hdtv+x264+lol+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Zoo S01E01 HDTV x264-LOL[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-06-30",
+              "crew": [],
+              "episode_number": 1,
+              "guest_stars": [],
+              "name": "First Blood",
+              "overview": "Jackson Oz, an American ex-pat safari guide living in Africa, discovers a link between strange animal attacks on people occurring around the world and his late father's controversial theories about an impending threat to the human race. Meanwhile, journalist Jamie Campbell and veterinary pathologist Mitch Morgan team up to investigate similar abnormal animal behavior in Los Angeles.",
+              "id": 1057153,
+              "production_code": null,
+              "season_number": 1,
+              "still_path": "http://image.tmdb.org/t/p/w300/y7DV6v8YcshWXcAdvItx6Sa5GTD.jpg",
+              "vote_average": 8,
+              "vote_count": 1
+            }
+          }
+        }
+      }
+    },
+    "TEEN WOLF": {
+      "info": {
+        "backdrop_path": "http://image.tmdb.org/t/p/w1280/rKuw94LmTWtCHC9Lm5LeiorGr9d.jpg",
+        "first_air_date": "2011-06-05",
+        "genre_ids": [
+          10759,
+          9648,
+          10765,
+          18
+        ],
+        "id": 34524,
+        "original_language": "en",
+        "original_name": "Teen Wolf",
+        "overview": "Scott McCall, a high school student living in the town of Beacon Hills has his life drastically changed when he's bitten by a werewolf, becoming one himself. He must henceforth learn to balance his problematic new identity with his day-to-day teenage life. The following characters are instrumental to his struggle: Stiles, his best friend; Allison, his love interest who comes from a family of werewolf hunters; and Derek, a mysterious werewolf with a dark past. Throughout the series, he strives to keep his loved ones safe while maintaining normal relationships with them.",
+        "origin_country": [
+          "US"
+        ],
+        "poster_path": "http://image.tmdb.org/t/p/w342/wvU3ki9Qp7amrgX4PIYeo4YiX2O.jpg",
+        "popularity": 15.945563,
+        "name": "Teen Wolf",
+        "vote_average": 7.6,
+        "vote_count": 31
+      },
+      "seasons": {
+        "5": {
+          "2": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:5A5955B56758033D8469999F7914348D45F66A22&dn=teen+wolf+s05e02+hdtv+x264+2hd+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Teen Wolf S05E02 HDTV x264-2HD[ettv]"
+              }
+            ],
+            "info": {
+              "air_date": "2015-06-30",
+              "crew": [],
+              "episode_number": 2,
+              "guest_stars": [
+                {
+                  "id": 41688,
+                  "name": "Seth Gilliam",
+                  "credit_id": "5592f03a9251415df800229c",
+                  "character": "Dr. Alan Deaton",
+                  "order": 4,
+                  "profile_path": "/5XL7Nuzt58wXijlFbDJKDWYoLFQ.jpg"
+                }
+              ],
+              "name": "Parasomnia",
+              "overview": "Stiles is suspicious of a new classmate; and Lydia helps a student with night terrors.",
+              "id": 1054982,
+              "production_code": null,
+              "season_number": 5,
+              "still_path": "http://image.tmdb.org/t/p/w300/91fsi92G6hoYxvK9oYRPA7mvvRh.jpg",
+              "vote_average": 0,
+              "vote_count": 0
+            }
+          }
+        }
+      }
+    },
+    "SCREAM THE TV SERIES": {
+      "seasons": {
+        "1": {
+          "1": {
+            "sources": [
+              {
+                "magnetUri": "magnet:?xt=urn:btih:60CAF1A142F320116CC810AC09D29D8ECE290442&dn=scream+the+tv+series+s01e01+hdtv+x264+2hd+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+                "quality": "SD",
+                "originalName": "Scream The TV Series S01E01 HDTV x264-2HD[ettv]"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "THE LAST SHIP": {
+      "info": {},
+      "seasons": {
+        "2": {
+          "3": {
+            "sources": [],
+            "info": {}
+          }
+        }
+      }
+    },
+    "FALLING SKIES": {
+      "info": {},
+      "seasons": {
+        "5": {
+          "1": {
+            "sources": [],
+            "info": {}
+          }
+        }
+      }
+    },
+    "EXTANT": {
+      "info": {},
+      "seasons": {
+        "2": {
+          "1": {
+            "sources": [],
+            "info": {}
+          }
+        }
+      }
+    },
+    "THE WHISPERS": {
+      "info": {},
+      "seasons": {
+        "1": {
+          "5": {
+            "sources": [],
+            "info": {}
+          }
+        }
+      }
+    },
+    "UNDER THE DOME": {
+      "info": {},
+      "seasons": {
+        "3": {
+          "1": {
+            "sources": [],
+            "info": {}
+          }
+        }
+      }
+    }
+  },
+  "recentEpisodes": [
+    {
+      "name": "test",
+      "episode": "1",
+      "season": "1",
+      "magnetUri": "test",
+      "quality": "SD",
+      "originalName": "Test Original Name",
+      "addedDate": "2015-07-02T16:06:09.158Z",
+      "airDate": "2005-09-17"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "10",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:9609F0336566953F3BF342241B25E2437F65B2C8&dn=game+of+thrones+s05e10+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game of Thrones S05E10 HDTV x264-KILLERS[ettv]",
+      "addedDate": "2015-07-02T16:06:16.353Z",
+      "airDate": "2015-06-14"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "8",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:2C7FAC7A8B18716E7209FC4AD769642DEAB43AE1&dn=game+of+thrones+s05e08+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game of Thrones S05E08 HDTV x264-KILLERS[ettv]",
+      "addedDate": "2015-07-02T16:06:16.360Z",
+      "airDate": "2015-05-31"
+    },
+    {
+      "name": "SUITS",
+      "episode": "2",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:8470E2DB03A77EDE366D6F77C9E1A5B703495717&dn=suits+s05e02+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Suits S05E02 HDTV x264-KILLERS[ettv]",
+      "addedDate": "2015-07-02T16:06:16.384Z",
+      "airDate": "2015-07-01"
+    },
+    {
+      "name": "MR ROBOT",
+      "episode": "2",
+      "season": "1",
+      "magnetUri": "magnet:?xt=urn:btih:E5FFC2BFD35C007849296A3FA19687CAB17C4985&dn=mr+robot+s01e02+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Mr Robot S01E02 HDTV x264-KILLERS[ettv]",
+      "addedDate": "2015-07-02T16:06:16.417Z",
+      "airDate": "2015-07-01"
+    },
+    {
+      "name": "TRUE DETECTIVE",
+      "episode": "2",
+      "season": "2",
+      "magnetUri": "magnet:?xt=urn:btih:022A86CC2BE154856AB5E56EF25758975DDB1FD5&dn=true+detective+s02e02+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "True Detective S02E02 HDTV x264-ASAP[ettv]",
+      "addedDate": "2015-07-02T16:06:16.664Z",
+      "airDate": "2015-06-28"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "7",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:E4F0B6A3723E58EAA45AB92AAE5D38072A5F8CDE&dn=game+of+thrones+s05e07+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game of Thrones S05E07 HDTV x264-ASAP[ettv]",
+      "addedDate": "2015-07-02T16:06:16.668Z",
+      "airDate": "2015-05-24"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "9",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:F49F64DB758A7E854C57DC60D7CC43061A2A02DA&dn=game+of+thrones+s05e09+proper+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game of Thrones S05E09 PROPER HDTV x264-KILLERS[ettv]",
+      "addedDate": "2015-07-02T16:06:16.674Z",
+      "airDate": "2015-06-07"
+    },
+    {
+      "name": "TRUE DETECTIVE",
+      "episode": "1",
+      "season": "2",
+      "magnetUri": "magnet:?xt=urn:btih:E4A2B706FD8882794806D37A9F97D7BB68E70BD8&dn=true+detective+s02e01+hdtv+x264+killers+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "True Detective S02E01 HDTV x264-KILLERS[ettv]",
+      "addedDate": "2015-07-02T16:06:16.696Z",
+      "airDate": "2015-06-21"
+    },
+    {
+      "name": "PRETTY LITTLE LIARS",
+      "episode": "5",
+      "season": "6",
+      "magnetUri": "magnet:?xt=urn:btih:8C27C6E68F5B5889BD1514971105ECDBED077D0B&dn=pretty+little+liars+s06e05+hdtv+x264+lol+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Pretty Little Liars S06E05 HDTV x264-LOL[ettv]",
+      "addedDate": "2015-07-02T16:06:16.798Z",
+      "airDate": "2015-06-30"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "6",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:DBE720F223AAE9B6E5886122FD2EEE18B90195C1&dn=game+of+thrones+s05e06+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game of Thrones S05E06 HDTV x264-ASAP[ettv]",
+      "addedDate": "2015-07-02T16:06:16.982Z",
+      "airDate": "2015-05-17"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "5",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:9800748DDDA1891DEF1D01C04F8CC0BCCAE1A192&dn=game+of+thrones+s05e05+hdtv+x264+asap+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game of Thrones S05E05 HDTV x264-ASAP[ettv]",
+      "addedDate": "2015-07-02T16:06:16.986Z",
+      "airDate": "2015-05-10"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "2",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:9FB267CFF5AE5603F07A347676EC3BF3E35F75E1&dn=game+of+thrones+s05e02+hdtv+x264+xclusive+eztv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game of Thrones S05E02 HDTV x264-Xclusive [eztv]",
+      "addedDate": "2015-07-02T16:06:16.993Z",
+      "airDate": "2015-04-19"
+    },
+    {
+      "name": "TEEN WOLF",
+      "episode": "2",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:5A5955B56758033D8469999F7914348D45F66A22&dn=teen+wolf+s05e02+hdtv+x264+2hd+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Teen Wolf S05E02 HDTV x264-2HD[ettv]",
+      "addedDate": "2015-07-02T16:06:17.013Z",
+      "airDate": "2015-06-30"
+    },
+    {
+      "name": "ZOO",
+      "episode": "1",
+      "season": "1",
+      "magnetUri": "magnet:?xt=urn:btih:F06CEDFED7921DEC1C164F883724ADA34E8CE0E3&dn=zoo+s01e01+hdtv+x264+lol+ettv&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Zoo S01E01 HDTV x264-LOL[ettv]",
+      "addedDate": "2015-07-02T16:06:17.124Z",
+      "airDate": "2015-06-30"
+    },
+    {
+      "name": "GAME OF THRONES",
+      "episode": "8",
+      "season": "5",
+      "magnetUri": "magnet:?xt=urn:btih:D591E2B93E1A35F3AD90ACC572192756CE8AB956&dn=game+of+thrones+s05e08+fastsub+vostfr+hdtv+xvid+addiction+avi&tr=udp%3A%2F%2Ftracker.publicbt.com%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337",
+      "quality": "SD",
+      "originalName": "Game Of Thrones S05E08 FASTSUB VOSTFR HDTV XviD-ADDiCTiON avi",
+      "addedDate": "2015-07-02T16:06:17.295Z",
+      "airDate": "2015-05-31"
+    }
+  ]
+}

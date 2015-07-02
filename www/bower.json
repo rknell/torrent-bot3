@@ -1,0 +1,33 @@
+{
+  "name": "www",
+  "version": "0.0.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.0",
+    "underscore": "~1.5",
+    "bootstrap": "~3.1",
+    "angular": "~1.2",
+    "angular-ui-router": "~0.2",
+    "angular-animate": "~1.2",
+    "angular-resource": "~1.2",
+    "angular-cookies": "~1.2",
+    "angular-mocks": "~1.2",
+    "angular-ui-utils": "~0.1",
+    "angular-bootstrap": "~0.10",
+    "moment": "~2.5",
+    "less.js": "~1.6",
+    "font-awesome": "master",
+    "angular-material": "master",
+    "bourbon": "~4.2.3"
+  },
+  "resolutions": {
+    "font-awesome": "master",
+    "angular": "1.4.1",
+    "angular-animate": "^1.3.0 || >1.4.0-beta.0"
+  }
+}
