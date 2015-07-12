@@ -1,4 +1,8 @@
-<div class="col-md-12" ng-controller="MenuCtrl">
-
-
+<div style="height: 100%">
+    <div class="menu" ng-class="{shown: menuShown}" ng-controller="MenuCtrl">
+        <md-button ng-click="$state.go('menu.allShows'); menuShown=false;">All Shows</md-button>
+        <md-button ng-click="$state.go('menu.recent'); menuShown=false;">Most Recent</md-button>
+        <i class="fa fa-bars" ng-click="menuShown = !menuShown"></i>
+    </div>
+    <ui-view></ui-view>
 </div>

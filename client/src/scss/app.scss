@@ -1,0 +1,209 @@
+//@import "normalize";
+@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon";
+
+.item {
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.59);
+    cursor: pointer;
+}
+
+.item-container {
+    @include display(flex);
+    @include align-content(flex-start);
+    @include flex-wrap(wrap);
+    @include justify-content(center);
+}
+
+.item span {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    margin-left: -10px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.item .title {
+    position: absolute;
+    bottom: 50%;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    margin-left: -10px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 26pt;
+    text-transform: uppercase;
+    overflow: hidden;
+    max-height: 140px;
+}
+
+video {
+    @include display(block);
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-color: #000000;
+}
+
+* {
+    @include user-select(none);
+    :focus{
+        outline: none;
+    }
+}
+
+body, html {
+    background: transparent !important;
+}
+
+
+.show-name {
+    @include display(flex);
+    @include flex-direction(row);
+    @include justify-content(center);
+}
+
+.menu {
+    width: 282px;
+    position: fixed;
+    z-index: 999;
+    background-color: transparent;
+    @include transform(translate3d(-235px,0,0));
+    @include transition(all 0.4s ease-out);
+    color: white;
+
+    &.shown {
+        @include transform(translate3d(0,0,0));
+        background-color: white;
+        color: black;
+    }
+}
+
+.no-items {
+    padding: 60px;
+    text-align: center;
+    font-size: 30pt;
+    color: #5a5a5a;
+    padding-top: 118px;
+    line-height: 1.7;
+}
+
+.vertical-layout {
+    @include display(flex);
+    @include flex-direction(column);
+    @include align-items(center);
+
+    margin-top: 0px;
+    height: 100%;
+
+    &.center {
+        @include justify-content(center);
+    }
+
+    .fill {
+        @include flex-grow(1);
+    }
+}
+
+.horizontal-layout {
+    @include display(flex);
+    @include flex-direction(row);
+    //@include align-items(stretch);
+    //@include align-content(stretch);
+
+    margin-top: 0px;
+
+    &.center {
+        @include justify-content(center);
+        @include align-items(center);
+    }
+
+    .fill {
+        @include flex-grow(1);
+        @include flex-shrink(1);
+        @include flex-basis(auto);
+    }
+
+    .fill-2 {
+        @include flex-grow(2);
+        @include flex-shrink(2);
+        @include flex-basis(auto);
+    }
+
+    @media (max-width: 740px) {
+        @include flex-direction(column);
+        .fill {
+            @include flex-grow(1);
+            @include flex-shrink(0);
+            @include flex-basis(100%);
+        }
+    }
+}
+
+.select-method {
+    background-color: rgba(0,0,0,0.25);
+    padding: 20px;
+    color: white;
+}
+
+.control-button {
+    padding: 10px;
+    background-color: white;
+    margin: 9px;
+}
+.description-box {
+    padding: 40px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin-bottom: 25px;
+
+    .name {
+        font-size: 22pt;
+    }
+    .description {
+        line-height: 1.4em;
+    }
+}
+
+.info-box {
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: -500px;
+    right: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: white;
+    @include transition(all 0.2s ease-out);
+
+    &.shown {
+        top: 0;
+    }
+}
+.info-icon {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    color: white;
+    @include transition(all 0.2s ease-out);
+
+    &.hidden {
+        right: -100px;
+    }
+}

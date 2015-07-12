@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html ng-app="www">
 <head>
-    <title></title>
+    <title>TorrentBot3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <!-- build:css css/libs.css -->
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css"/>
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
 
 <!-- Livereload script for development only (stripped during dist build) -->
 <script src="http://localhost:35729/livereload.js" data-concat="false"></script>
 
-<!-- JS from Bower Components -->
+
+<!-- build:libs js/libs.js -->
 <script src="bower_components/jquery/jquery.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="bower_components/underscore/underscore.js"></script>
 <script src="bower_components/moment/moment.js"></script>
+<script src="3rdparty/socketio.js"></script>
+<!-- endbuild -->
+
+<!-- build:angular js/angular.js -->
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 <script src="bower_components/angular-animate/angular-animate.js"></script>
 <script src="bower_components/angular-resource/angular-resource.js"></script>
-<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-<script src="bower_components/angular-ui-utils/ui-utils.js"></script>
-<!-- Add New Bower Component JS Above -->
+<script src="bower_components/angular-material/angular-material.min.js"></script>
+<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+<!-- endbuild -->
 
-
+<!-- build:app js/app.js -->
 <!-- Main App JS -->
 <script src="app.js"></script>
-<script src="partial/home/home.js"></script>
+<script src="partial/allShows/home.js"></script>
 <script src="partial/menu/menu.js"></script>
 <script src="partial/view/view.js"></script>
 <script src="partial/viewShow/viewShow.js"></script>
-<script src="partial/viewEpisodes/viewEpisodes.js"></script>
+<script src="service/library.js"></script>
+<script src="partial/recent/recent.js"></script>
+<script src="partial/recent/recent.js"></script>
+<script src="service/chromecast.js"></script>
+<script src="service/socketIo.js"></script>
 <!-- Add New Component JS Above -->
-<div style="background: url({{current.data.info.backdrop_path}}); background-size: cover; position: fixed; z-index: -10; top:0; left: 0; right: 0; bottom: 0; background-color: black"></div>
-<div ui-view>
-</div>
+<!-- endbuild -->
+
+<div style="background: url({{current.info.backdrop_path}}); background-size: cover; position: fixed; z-index: -10; top:0; left: 0; right: 0; bottom: 0; background-color: black"></div>
+<ui-view></ui-view>
 
 </body>
 </html>

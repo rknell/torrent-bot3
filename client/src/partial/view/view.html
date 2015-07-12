@@ -1,5 +1,65 @@
-<div ng-controller="ViewCtrl">
+<div ng-controller="ViewCtrl" class="vertical-layout center">
+    <div class="vertical-layout fill center" style="width: 100%;">
+        <div ng-show="action === 'selectMethod'" class="select-method">
+            <h2>How would you like to play the video?</h2>
 
-    <video src="{{videoSource}}" controls autoplay></video>
+            <div class="vertical-layout center">
+                <md-button class="md-raised md-primary" ng-click="playLocal()">This computer</md-button>
+                <md-button class="md-raised md-primary" ng-repeat="chromecast in chromecasts.chromecasts"
+                           ng-click="playChromecast(chromecast)">{{chromecast.name}}
+                </md-button>
+            </div>
+        </div>
+
+        <div ng-show="action === 'playVideo'">
+            <video src="{{videoSource}}" controls autoplay id="player" ng-show="canPlay"></video>
+            <div ng-show="!canPlay" style="
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+">Starting Torrent... Please wait.
+                <div class="downloadSpeed" style="margin-top: 10px">Download: {{status.downloadSpeed}}/s ({{status.downloaded}}) Peers: {{status.totalPeers}} Hotswaps: {{status.hotswaps}}</div>
+            </div>
+
+        </div>
+
+
+
+        <div ng-show="action === 'chromecast'" style="width: 80%;">
+            <div class="horizontal-layout">
+                <i class="fa fa-play control-button fa-fw" ng-click="play()"></i>
+                <i class="fa fa-pause control-button fa-fw" ng-click="pause()"></i>
+                <i class="fa fa-stop control-button fa-fw" ng-click="stop()"></i>
+                <md-slider flex min="0" max="{{duration}}" ng-model="currentTime" aria-label="duration" ng-change="seek(currentTime)" class="fill"></md-slider>
+                <i class="fa fa-volume-down control-button fa-fw" ng-click="volumeDown()"></i>
+                <i class="fa fa-volume-up fa-fw control-button" ng-click="volumeUp()"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-box" ng-class="{shown: infoBoxShown && canPlay}">
+        <div class="downloadSpeed">Dl {{status.downloadSpeed}}/s ({{status.downloaded}}) / Peers: {{status.totalPeers}}</div>
+        <i class="fa fa-times" ng-click="infoBoxShown = false;" style="float: right"></i>
+        <div class="uploaded">Ul {{status.uploaded}} HS: {{status.hotswaps}}</div>
+
+    </div>
+    <div class="info-icon" ng-class="{hidden: infoBoxShown}">
+        <i class="fa fa-info" ng-click="infoBoxShown = true;" ></i>
+    </div>
+
+    <div class="show-name" ng-show="action !== 'selectMethod'">
+        <md-button class="md-raised" ng-click="$state.go('menu.viewShow', {name: $state.params.name})">
+            {{$state.params.name}}
+        </md-button>
+        <md-button ng-show="$state.params.season" class="md-raised"
+                   ng-click="$state.go('menu.viewSeason', {name: $state.params.name, season: $state.params.season})">
+            Season
+            {{$state.params.season}}
+        </md-button>
+
+        <md-button class="md-raised" ng-show="$state.params.episode">Episode {{$state.params.episode}}</md-button>
+    </div>
+
 
 </div>

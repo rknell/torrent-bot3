@@ -1,34 +1,49 @@
 <div class="col-md-12" ng-controller="ViewshowCtrl">
 
-    <div class="show-name">{{show.name}}</div>
-
-
-
-    <div class="item-container" ng-show="!season">
-        <div class="item" ng-click="go('home')">
-            <div class="title"><i class="fa fa-chevron-left"></i> Back</div>
+    <div class="vertical-layout">
+        <div class="description-box">
+            <div class="name">{{show.info.name}}</div>
+            <div class="description">{{show.info.overview}}</div>
         </div>
-        <div class="item" ng-click="setSeason(data)" ng-repeat="(number, data) in show.data.seasons">
-            <div class="title">Season {{number}}</div>
+        <div class="fill">
+            <div class="vertical-layout">
+                <div class="show-name">
+                    <md-button class="md-raised" ng-click="$state.go('menu.viewShow', {name: $state.params.name})">
+                        {{$state.params.name}}
+                    </md-button>
+                    <md-button ng-show="$state.params.season" class="md-raised"
+                               ng-click="$state.go('menu.viewSeason', {name: $state.params.name, season: $state.params.season})">
+                        Season
+                        {{$state.params.season}}
+                    </md-button>
+                    <md-button class="md-raised" ng-show="$state.params.episode">Episode {{$state.params.episode}}
+                    </md-button>
+                </div>
+
+
+                <div class="item-container fill">
+                    <div class="item" ng-click="$state.back()">
+                        <div class="title"><i class="fa fa-chevron-left"></i> Back</div>
+                    </div>
+                    <div class="item" ng-show="!$state.params.season"
+                         ng-click="$state.go('menu.viewSeason', {name: $state.params.name, season: number})"
+                         ng-repeat="(number, data) in show.seasons">
+                        <div class="title">Season {{number}}</div>
+                    </div>
+                    <div class="item" ng-show="!$state.params.episode"
+                         ng-click="$state.go('menu.viewEpisode', {name: $state.params.name, season: $state.params.season, episode: number})"
+                         ng-repeat="(number, data) in season">
+                        <div class="title">Episode {{number}}</div>
+                    </div>
+                    <div class="item" ng-click="viewEpisode($index)" ng-repeat="source in episode.sources">
+                        <div class="title" style="font-size: 13pt;">{{source.originalName}}</div>
+                        <span>{{source.quality}}</span>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 
-    <div class="item-container" ng-show="season && !episode">
-        <div class="item" ng-click="season = null;">
-            <div class="title"><i class="fa fa-chevron-left"></i> Back</div>
-        </div>
-        <div class="item" ng-click="setEpisode(data)" ng-repeat="(number, data) in season">
-            <div class="title">Episode {{number}}</div>
-        </div>
-    </div>
 
-    <div class="item-container" ng-show="episode">
-        <div class="item" ng-click="episode = null;">
-            <div class="title"><i class="fa fa-chevron-left"></i> Back</div>
-        </div>
-        <div class="item" ng-click="viewEpisode(source)" ng-repeat="source in episode.sources">
-            <div class="title" style="font-size: 13pt;">{{source.originalName}}</div>
-            <span>{{source.quality}}</span>
-        </div>
-    </div>
 </div>

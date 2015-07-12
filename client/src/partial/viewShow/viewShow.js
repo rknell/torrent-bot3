@@ -1,32 +1,23 @@
-angular.module('www').controller('ViewshowCtrl', function ($scope, $rootScope, $state) {
+angular.module('www').controller('ViewshowCtrl', function ($scope, $rootScope, $state, library) {
 
-    $scope.season = null;
-    $scope.episode = null;
-    $scope.show = $rootScope.current;
-    console.log($scope.show);
-    //
-    //$scope.view = function(showName, seasonData){
-    //    $rootScope.current = {
-    //        name: showName,
-    //        seasonData: seasonData
-    //    }
-    //    $state.go('viewEpisodes');
-    //};
-
-    $scope.setSeason = function (value) {
-        console.log("clicked", value);
-        $scope.season = value;
+    $scope.show = $rootScope.library.shows[$state.params.name];
+    $rootScope.current = $scope.show;
+    console.log($scope.current, "current");
+    if ($state.params.season) {
+      $scope.season = $scope.show.seasons[$state.params.season];
     }
-    $scope.setEpisode = function (value) {
-        console.log("clicked", value);
-        $scope.episode = value;
+    if ($state.params.episode) {
+      $scope.episode = $scope.season[$state.params.episode];
     }
+    console.log($scope.show, $scope.season, $scope.episode);
 
-    $scope.viewEpisode = function (source) {
-        $rootScope.currentView = source;
-        $state.go('view');
-    }
-
-    $scope.go = $state.go;
+  $scope.viewEpisode = function (index) {
+    $state.go('menu.view', {
+      name: $state.params.name,
+      season: $state.params.season,
+      episode: $state.params.episode,
+      index: index
+    });
+  };
 
 });
