@@ -29,6 +29,7 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
 
   $scope.playChromecast = function playChromecast(player) {
     $scope.action = "chromecast";
+    $scope.canPlay = true;
 
     file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
     socketIo.emit("torrent:stream", {url: file.magnetUri});
