@@ -29,6 +29,7 @@ angular.module('www').factory('chromecast', function ($http, $interval, $rootSco
   }
 
   function seek(time) {
+    console.log("seeking", time);
     //return $http.post("/chromecasts/seek");
     socketIo.emit("chromecast:seek", time);
   }

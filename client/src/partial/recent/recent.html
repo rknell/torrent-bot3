@@ -1,13 +1,15 @@
-<div class="col-md-12" ng-controller="RecentCtrl">
-
-    <div class="no-items" ng-show="!library.recentEpisodes.length">Searching for shows... <br/>Chill for a few minutes - <br/>They will show up automatically</div>
-    <div class="item-container">
-        <div class="item"
-             ng-click="$state.go('menu.viewEpisode', {name: data.name, episode: data.episode, season: data.season})"
-             style="background: url({{data.posterPath}}); background-size: cover; background-repeat: no-repeat"
-             ng-repeat="data in library.recentEpisodes | orderBy:'-airDate' | limitTo:limit">
-            <span>{{data.name}} - S{{data.season}}E{{data.episode}} <br/>{{data.airDate}} {{$index}}</span>
+<div class="sa-container" ng-controller="RecentCtrl">
+    <div class="sa-layout vertical">
+        <div class="no-items" ng-show="!library.recentEpisodes.length">Searching for shows... <br/>Chill for a few minutes -
+            <br/>They will show up automatically
+        </div>
+        <div class="sa-layout horiztontal wrap justify-center grow">
+            <div class="item"
+                 ng-click="$state.go('menu.viewEpisode', {name: data.name, episode: data.episode, season: data.season})"
+                 style="background: url({{data.posterPath}}); background-size: cover; background-repeat: no-repeat"
+                 ng-repeat="data in library.recentEpisodes | orderBy:'-airDate' | limitTo:limit">
+                <span>{{data.name}} - S{{data.season}}E{{data.episode}} <br/>{{data.airDate}} {{$index}}</span>
+            </div>
         </div>
     </div>
-
 </div>

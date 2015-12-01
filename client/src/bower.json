@@ -21,7 +21,8 @@
     "less.js": "~1.6",
     "font-awesome": "master",
     "angular-material": "master",
-    "bourbon": "~4.2.3"
+    "bourbon": "~4.2.3",
+    "snappyapps-layout": "~0.1.1"
   },
   "resolutions": {
     "font-awesome": "master",

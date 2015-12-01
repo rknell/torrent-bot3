@@ -7,6 +7,7 @@
     <!-- build:css css/libs.css -->
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css"/>
+    <link rel="stylesheet" href="bower_components/snappyapps-layout/css/snappyapps-layout.css"/>
     <!-- endbuild -->
 
     <link rel="stylesheet" href="css/app.css"/>
@@ -22,6 +23,7 @@
 <script src="bower_components/underscore/underscore.js"></script>
 <script src="bower_components/moment/moment.js"></script>
 <script src="3rdparty/socketio.js"></script>
+<script src="bower_components/snappyapps-layout/js/snappyapps-layout.js"></script>
 <!-- endbuild -->
 
 <!-- build:angular js/angular.js -->
@@ -45,11 +47,17 @@
 <script src="partial/recent/recent.js"></script>
 <script src="service/chromecast.js"></script>
 <script src="service/socketIo.js"></script>
+<script src="directive/snappyapps-layout.js"></script>
 <!-- Add New Component JS Above -->
 <!-- endbuild -->
 
-<div style="background: url({{current.info.backdrop_path}}); background-size: cover; position: fixed; z-index: -10; top:0; left: 0; right: 0; bottom: 0; background-color: black"></div>
-<ui-view></ui-view>
+<div class="sa-container" style="background: url({{current.info.backdrop_path}}); background-size: cover; background-color: black;" sa-container>
+    <div class="sa-layout vertical">
+        <div ui-view class="grow"></div>
+    </div>
+
+</div>
+
 
 </body>
 </html>

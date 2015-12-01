@@ -2,6 +2,7 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
   var url;
   var lib = $rootScope.library;
   var file;
+  var startTime;
 
   $scope.infoBoxShown = true;
 
@@ -12,14 +13,9 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
 
     file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
     $scope.action = "playVideo";
-    console.log("Emitting torrent:stream", {url: file.magnetUri})
-    socketIo.emit("torrent:stream", {url: file.magnetUri});
-    socketIo.on("torrent:stream", function (result) {
-      console.log("Got torrentstream", result);
-      url = result.videoUrl;
-      $scope.videoSource = $sce.trustAsResourceUrl(result.videoUrl);
-      $scope.$apply();
-    });
+    console.log("Emitting torrent:stream", {url: file.magnetUri, target: "local"});
+    socketIo.emit("torrent:stream", {url: file.magnetUri, target: "local"});
+
   };
 
   socketIo.on('torrent:status', function (status) {
@@ -27,26 +23,38 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
     $scope.$apply();
   });
 
+  socketIo.on("torrent:stream", function (result) {
+    console.log("Got torrentstream", result);
+    if (result.target === "local") {
+      url = result.videoUrl;
+      $scope.videoSource = $sce.trustAsResourceUrl(result.videoUrl);
+      $scope.$apply();
+    } else {
+      //Must be a url so chromecast
+      url = result.videoUrl;
+      chromecast.load(url, result.target, $state.params.name + " S" + $state.params.season + "E" + $state.params.episode, lib.shows[$state.params.name].info.backdrop_path);
+    }
+  });
+
   $scope.playChromecast = function playChromecast(player) {
     $scope.action = "chromecast";
     $scope.canPlay = true;
 
     file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
-    socketIo.emit("torrent:stream", {url: file.magnetUri});
-
-    socketIo.on("torrent:stream", function (result) {
-      url = result.videoUrl;
-      chromecast.load(url, player.addresses[0], $state.params.name + " S" + $state.params.season + "E" + $state.params.episode, lib.shows[$state.params.name].info.backdrop_path);
-    });
+    socketIo.emit("torrent:stream", {url: file.magnetUri, target: player.addresses[0]});
 
     socketIo.on("chromecast:status", function (result) {
       console.log("chromecast status", result);
-      if(result.media){
+      if (result.media) {
         $scope.duration = result.media.duration;
 
       }
 
-      if(result.currentTime){
+      if (!startTime) {
+        startTime = moment();
+      }
+
+      if (result.currentTime) {
         $scope.currentTime = result.currentTime;
       }
       $scope.$apply();
@@ -71,7 +79,7 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
 
   $scope.seek = function (time) {
     console.log("seek", time);
-    //chromecast.seek(time);
+    chromecast.seek(time);
   };
 
   $scope.play = function () {
@@ -86,12 +94,17 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
     chromecast.volumeDown();
   }
 
-  $interval(function incrementTime(){
-    $scope.currentTime ++;
+  $interval(function incrementTime() {
+    //$scope.currentTime ++;
+    if (startTime) {
+      $scope.currentTime = moment().diff(startTime, 'seconds');
+      console.log($scope.currentTime);
+    }
+
     //document.getElementById('myVideo')
   }, 1000);
 
-  document.getElementById('player').addEventListener('canplay', function(data){
+  document.getElementById('player').addEventListener('canplay', function (data) {
     console.log("canplay", data);
     $scope.canPlay = true;
     $scope.$apply();

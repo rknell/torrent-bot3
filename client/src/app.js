@@ -1,4 +1,4 @@
-angular.module('www', ['ui.router', 'ngAnimate', 'ngMaterial']);
+angular.module('www', ['ui.router', 'ngAnimate', 'ngMaterial', 'snappyappsLayout']);
 
 angular.module('www').config(function ($stateProvider, $urlRouterProvider) {
 
