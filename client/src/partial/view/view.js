@@ -6,16 +6,10 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
 
   $scope.infoBoxShown = true;
 
-  $rootScope.current = $rootScope.library.shows[$state.params.name];
-  file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
-
   $scope.playLocal = function () {
-
-    file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
+    // file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
     $scope.action = "playVideo";
-    console.log("Emitting torrent:stream", {url: file.magnetUri, target: "local"});
-    socketIo.emit("torrent:stream", {url: file.magnetUri, target: "local"});
-
+    socketIo.emit("torrent:stream", {url: $state.params.magnetUri, target: "local"});
   };
 
   socketIo.on('torrent:status', function (status) {
@@ -24,7 +18,6 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
   });
 
   socketIo.on("torrent:stream", function (result) {
-    console.log("Got torrentstream", result);
     if (result.target === "local") {
       url = result.videoUrl;
       $scope.videoSource = $sce.trustAsResourceUrl(result.videoUrl);
@@ -40,11 +33,10 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
     $scope.action = "chromecast";
     $scope.canPlay = true;
 
-    file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
-    socketIo.emit("torrent:stream", {url: file.magnetUri, target: player.addresses[0]});
+    // file = lib.shows[$state.params.name].seasons[$state.params.season][$state.params.episode].sources[$state.params.index];
+    socketIo.emit("torrent:stream", {url: $state.params.magnetUri, target: player.addresses[0]});
 
     socketIo.on("chromecast:status", function (result) {
-      console.log("chromecast status", result);
       if (result.media) {
         $scope.duration = result.media.duration;
 
@@ -78,7 +70,6 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
   };
 
   $scope.seek = function (time) {
-    console.log("seek", time);
     chromecast.seek(time);
   };
 
@@ -95,17 +86,12 @@ angular.module('www').controller('ViewCtrl', function ($scope, $rootScope, $http
   }
 
   $interval(function incrementTime() {
-    //$scope.currentTime ++;
     if (startTime) {
       $scope.currentTime = moment().diff(startTime, 'seconds');
-      console.log($scope.currentTime);
     }
-
-    //document.getElementById('myVideo')
   }, 1000);
 
   document.getElementById('player').addEventListener('canplay', function (data) {
-    console.log("canplay", data);
     $scope.canPlay = true;
     $scope.$apply();
   })

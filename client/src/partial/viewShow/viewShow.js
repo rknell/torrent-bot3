@@ -1,22 +1,38 @@
-angular.module('www').controller('ViewshowCtrl', function ($scope, $rootScope, $state, library) {
+angular.module('www').controller('ViewshowCtrl', function ($scope, $rootScope, $state, library, $http) {
 
-    $scope.show = $rootScope.library.shows[$state.params.name];
-    $rootScope.current = $scope.show;
-    console.log($scope.current, "current");
-    if ($state.params.season) {
-      $scope.season = $scope.show.seasons[$state.params.season];
-    }
-    if ($state.params.episode) {
-      $scope.episode = $scope.season[$state.params.episode];
-    }
-    console.log($scope.show, $scope.season, $scope.episode);
+  $http.get('/show/' + $state.params.name)
+    .then(function (res) {
+      $scope.show = res.data;
+      $rootScope.backgroundUrl = $scope.show.tmdbData.backdrop_path;
 
-  $scope.viewEpisode = function (index) {
+      console.log("Current Show", $scope.show);
+
+      if ($state.params.season) {
+        $scope.show.seasons.forEach(function (season) {
+          if (season.number == $state.params.season) {
+            $scope.season = season;
+          }
+        });
+      }
+
+      if ($state.params.episode && $scope.season) {
+        $scope.season.episodes.forEach(function (episode) {
+          if (episode.number == $state.params.episode) {
+            $scope.episode = episode;
+          }
+        });
+      }
+
+      console.log($scope.show, $scope.season, $scope.episode);
+
+    });
+
+  $scope.viewEpisode = function (source) {
     $state.go('menu.view', {
       name: $state.params.name,
       season: $state.params.season,
       episode: $state.params.episode,
-      index: index
+      magnetUri: source.magnetUri
     });
   };
 

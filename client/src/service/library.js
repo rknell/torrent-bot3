@@ -2,8 +2,14 @@
 angular.module('www').factory('library', function ($http, $q, $rootScope, $timeout, socketIo) {
 
   socketIo.on('welcome', function (data) {
-    cleanRecent(data.library);
-    $rootScope.library = data.library;
+    // cleanRecent(data.library);
+
+    $rootScope.library = {
+      recentEpisodes: data.recentEpisodes
+    };
+
+    console.log("Library", $rootScope.library);
+
     $rootScope.$broadcast("libraryUpdated", $rootScope.library);
     $rootScope.$apply();
   });
@@ -17,7 +23,7 @@ angular.module('www').factory('library', function ($http, $q, $rootScope, $timeo
 
   socketIo.on('added:recentEpisode', function (data) {
     console.log("Found new recent episode", data);
-    if(data.airDate){
+    if (data.airDate) {
       $rootScope.library.recentEpisodes.push(data);
       $rootScope.$apply();
       $rootScope.$broadcast("libraryUpdated");
@@ -35,6 +41,6 @@ angular.module('www').factory('library', function ($http, $q, $rootScope, $timeo
     library.recentEpisodes = output;
   }
 
-  return {}
+  return {};
 
 });

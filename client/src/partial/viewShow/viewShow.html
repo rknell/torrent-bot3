@@ -26,16 +26,16 @@
                         <div class="title"><i class="fa fa-chevron-left"></i> Back</div>
                     </div>
                     <div class="item" ng-show="!$state.params.season"
-                         ng-click="$state.go('menu.viewSeason', {name: $state.params.name, season: number})"
-                         ng-repeat="(number, data) in show.seasons">
-                        <div class="title">Season {{number}}</div>
+                         ng-click="$state.go('menu.viewSeason', {name: $state.params.name, season: season.number})"
+                         ng-repeat="season in show.seasons">
+                        <div class="title">Season {{season.number}}</div>
                     </div>
                     <div class="item" ng-show="!$state.params.episode"
-                         ng-click="$state.go('menu.viewEpisode', {name: $state.params.name, season: $state.params.season, episode: number})"
-                         ng-repeat="(number, data) in season">
-                        <div class="title">Episode {{number}}</div>
+                         ng-click="$state.go('menu.viewEpisode', {name: $state.params.name, season: season.number, episode: episode.number})"
+                         ng-repeat="episode in season.episodes" style="background: url({{episode.tmdb.still_path}}); background-size: cover; width: 300px; height: 169px;">
+                        <div class="title">Episode {{episode.number}}</div>
                     </div>
-                    <div class="item" ng-click="viewEpisode($index)" ng-repeat="source in episode.sources">
+                    <div class="item" ng-click="viewEpisode(source)" ng-repeat="source in episode.sources">
                         <div class="title" style="font-size: 13pt;">{{source.originalName}}</div>
                         <span>{{source.quality}}</span>
                     </div>

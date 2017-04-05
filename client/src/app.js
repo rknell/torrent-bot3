@@ -12,7 +12,7 @@ angular.module('www').config(function ($stateProvider, $urlRouterProvider) {
     abstract: true
   });
   $stateProvider.state('menu.view', {
-    url: '/view/:name/:season/:episode/:index',
+    url: '/view/:name/:season/:episode/:magnetUri',
     templateUrl: 'partial/view/view.html'
   });
   $stateProvider.state('menu.viewShow', {

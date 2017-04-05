@@ -6,9 +6,9 @@
         <div class="sa-layout horiztontal wrap justify-center grow">
             <div class="item"
                  ng-click="$state.go('menu.viewEpisode', {name: data.name, episode: data.episode, season: data.season})"
-                 style="background: url({{data.posterPath}}); background-size: cover; background-repeat: no-repeat"
-                 ng-repeat="data in library.recentEpisodes | orderBy:'-airDate' | limitTo:limit">
-                <span>{{data.name}} - S{{data.season}}E{{data.episode}} <br/>{{data.airDate}} {{$index}}</span>
+                 style="background: url({{data.posterUrl}}); background-size: cover; background-repeat: no-repeat"
+                 ng-repeat="data in library.recentEpisodes | orderBy:['-date', 'name'] | limitTo:300">
+                <span>{{data.name}} - S{{data.season}}E{{data.episode}} <br/>{{data.date}}</span>
             </div>
         </div>
     </div>
